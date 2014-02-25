@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "insertica"
-  s.version     = "0.0.2"
+  s.version     = "0.0.3"
   s.date        = Time.now
   s.summary     = "A simple tool to insert data into Vertica."
   s.description = "A simple tool to insert data into Vertica. Currently only supports JSON data."
