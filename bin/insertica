@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
-
-require './lib/insertica.rb'
 require 'thor'
+
+require 'insertica'
 
 class InserticaExecutable < Thor
   package_name "insertica"
