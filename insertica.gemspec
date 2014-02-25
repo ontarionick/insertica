@@ -2,8 +2,8 @@ Gem::Specification.new do |s|
   s.name        = "insertica"
   s.version     = "0.0.1"
   s.date        = Time.now
-  s.summary     = "A simple tool to insert delimited data into Vertica."
-  s.description = "A simple tool to insert delimited data into Vertica. Currently only supports JSON data."
+  s.summary     = "A simple tool to insert data into Vertica."
+  s.description = "A simple tool to insert data into Vertica. Currently only supports JSON data."
   s.author      = "Nick Evans"
   s.files       = Dir['lib/**/*.rb']
   s.executables << 'insertica'
