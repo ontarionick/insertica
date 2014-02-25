@@ -1,5 +1,9 @@
 # Insertica
 
+Insertica will guess the schema of a JSON object, create a suitable table in the specified database, and then load the data into that table.
+
+This gem could definitely use some optimization - it will probably not work well with a ton of data.
+
 ## Usage
 ```
 Usage:
