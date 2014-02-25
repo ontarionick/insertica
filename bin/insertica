@@ -11,8 +11,9 @@ class InserticaExecutable < Thor
   method_option :password, aliases: "-p", required: true, type: :string, desc: "Specifies the password to use with Vertica."
   method_option :host, aliases: "-h", default: 'localhost', desc: "Specifies the host of the Vertica database."
   method_option :port, aliases: "-p", default: 5433, desc: "Specifies the port of the Vertica database."
+  method_option :schema, aliases: "-s", desc: "Specifies which schema to use."
   def load(filename)
-    table = Insertica::Table.new(filename)
+    table = Insertica::Table.new(options[:schema], filename)
     table.insert(options)
   end
 end
