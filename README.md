@@ -1,7 +1,7 @@
 # Insertica
 
 ## Usage
-
+```
 Usage:
   insertica load -p, --password=PASSWORD -u, --username=USERNAME
 
@@ -14,3 +14,4 @@ Options:
                            # Default: 5433
 
 Load a delimited file into Vertica.
+```
