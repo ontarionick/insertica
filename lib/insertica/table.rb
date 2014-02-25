@@ -32,7 +32,7 @@ module Insertica
       ].join(",\n")
     end
 
-    def insert(**options)
+    def insert(options = {})
       vertica_connection = Vertica.connect({
         host:     options[:host],
         user:     options[:user],
